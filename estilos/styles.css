@@ -1,0 +1,703 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+
+
+/* index.html */
+
+*{
+    margin:0px;
+    padding:0px 10px 0px 10px;
+    font-family: Serif;
+    top: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background: rgba(173, 153, 153, 0.3);
+}
+
+.encabezado{
+    width: 100%;
+    height: 130px;
+    padding:0px;
+    padding: 0px;
+    background-color: rgba(36, 2, 2, 0.744);
+    position: sticky;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+
+.contenedorLogo{
+    width: 270px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+   
+}
+
+.logo{
+    width: 270px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+  
+    position: fixed;
+    display: flex;
+    align-items: start;
+    flex-shrink: 0;
+}
+
+.encabezado .contenedorTitulo{
+    width: 14%;
+    height: 38px;
+    margin: 0px;
+    padding: 0px;
+    
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+
+#titulo{
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    font-size: 26px;
+    display: flex;
+    flex-shrink: 0;
+   
+    color: rgba(255, 0, 0, 1);
+    font-weight: bold;
+    
+}
+
+.barraNavegacion{
+    width: 100%;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+nav ul{
+    display: flex;
+    /* flex-flow: row nowrap; */
+}
+
+nav ul li{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-shrink: 0;
+    color:aliceblue;
+    text-transform: capitalize;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    background-color: rgba(183, 106, 106, .4);
+    color: white;
+}
+
+.contenedorPrincipal{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background-color: rgba(183, 106, 106, .4);
+ 
+}
+
+.contenedorPrincipalLecciones{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(183, 106, 106, .4);
+}
+
+#seccion1{
+    padding: 0px;
+   
+}
+
+#article1{
+    width: 100%;
+    height: auto;
+    padding: 20px 10px 10px 10px;
+  
+}
+
+.descripciones{
+    font-size: 24px;
+    text-align: justify;
+}
+
+#seccion2{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+ 
+}
+
+.article_texto{
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+    display: inline-block;
+    background-color: aliceblue;
+    color: red;
+    font-weight: bold;
+}
+
+.centrado{
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+#marginInferior{
+    margin-bottom: 25px;
+}
+
+.seccion3{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+ 
+}
+
+.espacioInterior{
+    padding: 20px 0px;
+}
+
+.subtitulo{
+    padding: 0px 0px 20px 0px;
+    margin-left: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+h2{
+    margin: 0px 0px 20px 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#transparencia_fondo10{
+    background-color: rgba(255, 0, 0, 0);
+}
+#transparencia_fondo9{
+    background-color: rgba(255, 0, 0, .1);
+}
+#transparencia_fondo8{
+    background-color: rgba(255, 0, 0, .2);
+}
+#transparencia_fondo7{
+    background-color: rgba(255, 0, 0, .3);
+}
+#transparencia_fondo6{
+    background-color: rgba(255, 0, 0, .4);
+}
+#transparencia_fondo5{
+    background-color: rgba(255, 0, 0, .5);
+}
+
+#transparencia_fondo4{
+    background-color: rgba(255, 0, 0, .6);
+}
+#transparencia_fondo3{
+    background-color: rgba(255, 0, 0, .7);
+}
+#transparencia_fondo2{
+    background-color: rgba(255, 0, 0, .8);
+}
+#transparencia_fondo1{
+    background-color: rgba(255, 0, 0, .9);
+}
+#transparencia_fondo0{
+    background-color: rgba(255, 0, 0, 1);
+}
+
+#ruedaColores{
+    width: 250px;
+    height: auto;
+}
+
+
+
+
+/*Página Lecciones*/
+
+
+#sitioPrincipal{
+    width: 100%;
+    height: auto;
+    /* padding: 0px 10px 20px 80px; */
+    background-color: rgba(183, 106, 106, .4);
+    /* background-color: rgba(65, 191, 191,.2); */
+}
+
+.seccionPrincipal{
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 40px 0px;
+    padding-top: 70px;
+    padding-left: 10px;
+    /* background-color: rgba(241, 134, 225, 0.1); */
+}
+
+#imagenHtml5{
+    width: 100%;
+    height: auto;
+}
+
+.ppal{
+    height: auto;
+}
+
+.pie{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.iconosredes{
+    width: 60px;
+    height: 40px;
+    
+    
+
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    /* padding: 5px; */
+    display: flex;
+    background-color: rgba(26, 2, 2,1);
+
+}
+
+#contenidoRedes{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    
+}
+
+
+
+/* Sobre mi */
+
+#containerPrincipal{
+    width: 100%;
+    height: auto;
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+#seccionSobreMi{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgba(183, 106, 106, .4);
+    /* background-color: rgb(252, 252, 252); */
+}
+
+#izquierdo{
+    width: 60%;
+    height: 8%;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(252, 252, 252, 1);
+    box-sizing: border-box;
+
+}
+
+.recuadro{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 5px;
+    background-color: rgba(155, 133, 99, .5);
+}
+
+#nombre{
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#seccionSobreMi #izquierdo .recuadro h3, h4{
+    text-transform: capitalize;
+    font-size: 28px;
+    margin: 10px 0px 0px 0px;
+}
+
+.tipografia{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 5px;
+    background-color: rgba(155, 133, 99, .5);
+    text-transform: capitalize;
+    font-size: 28px;
+}
+
+#derecho{
+    width: 39%;
+    height: 1010px;
+    margin: 0px 0px 0px 0px;
+    padding: 16px;
+    display: inline-block;
+    background-color: rgb(246, 233, 210);
+    box-sizing: border-box;
+
+
+}
+
+.fondoBlanco{
+    font-size: 21px;
+    background-color: white;
+    text-align: justify;
+}
+
+#perfilImg{
+    width:400px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+
+
+}
+
+#contenedorFoto{
+    width: 400px;
+    height: auto;
+    margin: 0px 0px 0px 40px;
+    padding: 20px 20px 20px 20px;
+}
+
+.parrafoDerecho{
+
+    padding: 10px;
+    font-size: 21px;
+    text-align: left;
+}
+
+
+
+
+/* Página Cursos */
+
+#contenedorPrincipalCursos{
+    width: 100%;
+    height: auto;
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    box-sizing: border-box;
+    background-color: rgba(113, 81, 81,.4);
+}
+
+.seccionCursos{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+
+.indiceCursos{
+    width: 100%;
+    height: auto;
+    margin:0px;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-shadow: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.videos{
+    width: 510px;
+    height: 340px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.contenedorTituloParrafo{
+    width: 510px;
+    height: 256px;
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+.contenedorTitulo1{
+    width: 80%;
+    height: 40px;
+    margin: 0px 0px 0px 40px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contenedorParrafo{
+    width: 90%;
+    height: auto;
+    margin: 10px 0px 0px 25px;
+    padding: 5px 5px 20px 5px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+#contenedorPrincipalCursos .seccionCursos .indiceCursos video{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#tituloCurso{
+    font-size: 22px;
+}
+
+.descripcionCurso{
+    text-align: left;
+    margin-left: 10px;
+    padding: 0px;
+
+}
+
+.reparacionPc{
+    width: 90%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid rgba(69, 47, 47,0.8);
+
+} 
+
+/* Fin del indice de cursos 2 */
+
+
+
+
+.office{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+#tituloCurso{
+    text-align: left;
+    margin-left: 10px;
+    padding: 0px;
+    line-height: 60px;
+}
+
+.descripcionCurso{
+    text-align: left;
+    margin-left: 10px;
+    padding: 0px;
+
+}
+
+
+
+/* Donaciones */
+
+#donacionesPrincipal{
+    width: 100%;
+    height: 700px;
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgba(113, 81, 81, 0.4);
+}
+
+#donaciones{
+    font-size: 60px;
+    margin-bottom: 30px;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+#aclaracion{
+    text-align: center;
+    margin: 0px;
+    padding: 0px 0px 40px 0px;
+    font-size: 20px;
+}
+
+#pagos{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    padding: 20px 10px 10px 10px;
+    border: 2px solid rgba(113, 81, 81, 1);
+}
+
+#desdeArgentina{
+    margin: 20px 0px 20px 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#iconCafe{
+    width: 80px;
+    height: 50px;
+    margin: 0px 0px 30px 8px;
+    padding: 0px;
+    float: left;
+}
+
+#iconMercadoPago{
+    width: 270px;
+    height: auto;
+    margin: auto;
+    padding: 0px;
+
+}
+
+.vista{
+
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+
+/* .cerrarMenu{
+    display: none;
+}
+
+.abrirMenu{
+    display: none;
+} */
+
+
+
+
+
+@media screen and (max-width:576px){
+
+    #titulo{
+        display: none;
+        
+    }
+
+    .encabezado{
+        height: 210px;
+       
+    }
+
+    
+    .barraNavegacion{
+        margin-top: 40px;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
+        background-color: rgba(36, 2, 2, 0);
+    }
+    
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        font-size: 100%;
+    }
+    
+    nav ul li{
+        
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        font-size: 20px;
+        display: flex;
+        flex-shrink: 0;
+        color:aliceblue;
+        text-transform: capitalize;
+    }
+    
+    nav ul li a{
+        
+        color: white;
+        text-decoration: none;
+        
+       
+    }
+    
+    a:hover{
+        background-color: rgba(36, 2, 2, .0);
+    }
+
+}
+    

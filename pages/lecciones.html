@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <title>Lecciones</title>
+</head>
+<body>
+    <header class="encabezado">
+        <div class="contenedorLogo">
+            <img class="logo" src="../imagenes/logo.png" alt="logo">
+        </div>
+        <div class="contenedorTitulo">
+            <h1 id="titulo">Cursos gratis</h1>
+        </div>
+        <nav class="barraNavegacion">
+            <ul>
+                <li><a href="../index.html">inicio</a></li>
+                <li><a href="cursos.html">cursos</a></li>
+                <li><a href="sobremi.html">sobre mi</a></li>
+                <li><a href="lecciones.html">lecciones</a></li>
+                <li><a href="donaciones.html">donaciones</a></li>
+            </ul>
+
+        </nav>
+            
+    </header>
+    <main class="contenedorPrincipalLecciones">
+        <section id="seccion1">        
+            <h2>Colores</h2>
+            <article id="article1">
+                <p class="descripciones">Hasta la llegada 
+                    de CSS3, los colores se podían representar mediante 
+                    el nombre del color en idioma Ingles, un valor exadecimal, 
+                    o utilizando los valores RGB que hace referencia 
+                    a la mezcla de colores "RED" (rojo), "GREEN" (verde) y "BLUE" 
+                    (azul).<br>
+                    La propiedad "OPACITY" se utilizaba para dar transparencia, 
+                    pero el problema es que afecta a todo el contenido del contenedor. 
+                    Esto se resolvió agregando un último valor al final a los valores 
+                    RGB, denominado canal ALPHA , quedando rgba(), y cuyo valor va 
+                    de 0 a 1. (Ej: 0, 0.1, 0.2, 0.3, etc.).<br><br>
+                    En consecuencia, los colores se pueden 
+                    determinar de las siguientes maneras:
+                </p>
+            </article>
+        </section>
+        <section id="seccion2">
+            <article class="article_texto">
+                <p class="centrado">color: #ff0000;</p>
+            </article>
+            <article class="article_texto">
+                <p class="centrado">color: rgb(255,0,0);</p>
+            </article>
+            <article id="marginInferior" class="article_texto">
+                <p class="centrado">color: rgba(255,0,0,1);</p>
+            </article>
+            <p class="descripciones"> Ejemplos de transparencia de acuerdo a los valores 
+                    del canal ALPHA.Tengamos en cuenta que podemos utilizar indistintamente 
+                    las propiedades "background-color", como "background". Asimismo, en el 
+                    siguiente ejemplo, vamos del valor 0 (que representa la máxima transparencia) 
+                    hasta el valor 1 (que representa al color puro).
+            </p>
+        </section>
+        <section class="seccion3">
+            <article id="transparencia_fondo10" class="article_transparencia">
+                <p class="centrado">background-color: rgba(255, 0, 0, 0);</p>
+            </article>
+            <article id="transparencia_fondo9" class="article_transparencia">
+                <p class="centrado">background-color: rgba(255, 0, 0, .1);</p>
+            </article>
+            <article id="transparencia_fondo8" class="article_transparencia">
+                <p class="centrado">background-color: rgba(255, 0, 0, .2);</p>
+            </article>
+            <article id="transparencia_fondo7" class="article_transparencia">
+                <p class="centrado">background-color: rgba(255, 0, 0, .3);</p>
+            </article>
+            <article id="transparencia_fondo6" class="article_transparencia">
+                <p class="centrado">background-color: rgba(255, 0, 0, .4);</p>
+            </article>
+            <article id="transparencia_fondo5" class="article_transparencia">
+                <p class="centrado">background-color: rgba(255, 0, 0, .5);</p>
+            </article>
+            <article id="transparencia_fondo4" class="article_transparencia">
+                <p class="centrado">background-color: rgba(255, 0, 0, .6);</p>
+            </article>
+            <article id="transparencia_fondo3" class="article_transparencia">
+                <p class="centrado">background-color: rgba(255, 0, 0, .7);</p>
+            </article>
+            <article id="transparencia_fondo2" class="article_transparencia">
+                <p class="centrado">background-color: rgba(255, 0, 0, .8);</p>
+            </article>
+            <article id="transparencia_fondo1" class="article_transparencia">
+                <p class="centrado">background-color: rgba(255, 0, 0, .9);</p>
+            </article>
+            <article id="transparencia_fondo0" class="article_transparencia">
+                <p class="centrado">background-color: rgba(255, 0, 0, .1);</p>
+            </article>
+        </section>
+
+        <section>
+            <article class="espacioInterior">
+                <p class="descripciones"> En CSS3 también se introdujo una 
+                    nueva forma de representar los colores con la denominación HSL (Hue, 
+                    Saturation, Luminosity), es decir, Tono, Saturación y Luminosidad.</p>
+                <p class="descripciones"> El Tono se indica con un valor que 
+                    va del 0 a 360 que representa la totalidad de los colores existentes en la 
+                    rueda de colores, la Saturación que va de 0% a 100%, en el que 0 es nada 
+                    saturado y 100 % la saturación máxima, y la luminosidad que desde 0% (nada 
+                    luminoso, o sea, negro) a 100% (máxima luminosidad, o sea, blanco), y al 50% 
+                    representa al color puro.</p> 
+                <p class="descripciones">También se le puede agregar el canal 
+                    ALPHA. Te invito a que experimentes, interactuando con dicho sistema de 
+                    colores en la página <a href="https://hslpicker.com" target="_blank">hslpicker.com</a>
+                    en la que además, encontrarás el código de color EXADECIMAL, RGB y HSL.
+                </p>       
+            </article>
+            <article class="espacioInterior">
+            <h3 class="subtitulo">Rueda de colores HSL</h3>
+            <img id="ruedaColores" src="../imagenes/rueda_colores.jpg" alt="Rueda de colores">    
+            </article>
+        </section>
+    </main>
+    <footer>
+
+        <div id="contenidoRedes">
+            <img class="iconosredes" src="../imagenes/telefono.png" alt="icono de llamadas"></a>
+            <img class="iconosredes" src="../imagenes/facebook.png" alt="icono de facebook"></a>
+            <img class="iconosredes" src="../imagenes/instagram.png" alt="icono de instagram"></a>
+            <img class="iconosredes" src="../imagenes/whatsapp.png" alt="icono de whatsapp"></a>
+            <img class="iconosredes" src="../imagenes/telegram.png" alt="icono de telegram"></a>
+            <img class="iconosredes" src="../imagenes/hotmail.png" alt="icono de hotmail"></a>
+        </div>
+
+    </footer>
+</body>
+</html>
